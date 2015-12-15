@@ -1,0 +1,128 @@
+body {
+
+	direction: rtl;
+	text-align: center;
+}
+
+#headline {
+	font-family: "New York";
+	font-size: 100px;
+	font-style: normal;
+	text-align: center;
+	text-decoration: underline;
+	background-color: blue;
+	direction: rtl;
+}
+
+.playerBox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	height: 800px;
+	width: 48%;
+	background-color: #E4E0E0;
+	padding: 10px;
+}
+.playerTitle{
+
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	display: inline-block;
+	color:purple;
+	font: 1.5em Arial;
+	font-family: Fixedsys;
+	font-size: 70px;
+	font-style: inherit;
+	text-decoration: underline;
+}
+.formOne {
+	display:inline-block;
+	height: 95px;
+	width: 90%;
+	background-color: #FAFAFB;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.formOne input {
+	display: inline block;
+	width: 40%;
+	height: 18px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.guessbox {
+	display: inline block;
+	background-color: #FAFAFB;
+	width: 21%;
+	margin: 2%;
+	float: right;
+	padding: 20px;
+	border-radius: 10px;
+}
+.guessbox input {
+	width: 100%;
+}
+
+.guessres {
+	display: inline block;
+	background-color: #FAFAFB;
+	width: 57%;
+	margin: 2%;
+	float: left;
+	padding: 20px;
+	border-radius: 10px;
+}
+#player2 {
+	text-align: left;
+	margin-left: 250px;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	color: blue;
+	font: 1.5em Arial;
+	font-family: Fixedsys;
+	font-size: 70px;
+	font-style: inherit;
+	text-decoration: underline;
+	direction: rtl;
+}
+
+#mynum1 {
+	display: inline-table;
+	float: right;
+}
+#guess2 {
+	display: inline-table;
+	margin-right: 100px;
+}
+#guess1 {
+	display: inline-table;
+	margin-right: 150px;
+}
+#result1 {
+	display: inline-table;
+	margin-right: 200px;
+}
+
+#mynum2 {
+	display: inline;
+	float: left;
+}
+#guess1 {
+	display: inline;
+	margin-left: 100px;
+}
+#guess2 {
+	display: inline;
+	margin-left: 150px;
+}
+#result1 {
+	display: inline;
+	margin-left: 200px;
+}
+
+li {
+	display: inline-block;
+	width: 150px;
+}
+

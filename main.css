@@ -1,0 +1,74 @@
+title {
+	direction: rtl;
+	text-align: center;
+	text-decoration:underline;
+	 float: right;
+	 top: 10px;
+	 width: 9em;
+	 font-family:"Arial Narrow";
+	 font-size:400px;
+	 color:blue;
+	 padding: 500px;
+      }
+
+body {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 30px;
+	background-color:purple;
+    }
+
+ul.navbar {
+	direction: rtl;
+	text-align: center;
+	display: inline block;
+	text-align: right;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	width: 9em;
+	padding:50px;
+	margin: 10px;
+}
+ul.navbar li {
+	display: inline block;
+	direction: rtl;
+	text-align: right;
+	background: orange;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	color: purple;
+	text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+}
+ul.navbar a {
+	text-decoration: none;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: purple;
+}
+
+h1 {
+	margin: 0 auto;
+	font-family: "New York";
+	font-style: italic;
+	color: blue;
+	text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+}
+img {
+	position: fixed;
+	top: 50px;
+	left: 10px;
+}
+address {
+	position: fixed;
+	bottom: 50px;
+	color: green;
+	height: 20px;
+}
+p {
+	color: red;
+	height: 30px;
+}
